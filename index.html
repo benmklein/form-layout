@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+    <title>Form Layout</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-box">
+            <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+            <iconify-icon inline icon="cil:mug-tea" width = 200px style="color:white; margin-left: 100px;"></iconify-icon>
+        </div>
+        <div class="form-box">
+            <div class="form-grid">
+                <div id="header-text">
+                    <h1>Sign up here.</h1>
+                    <hr>
+                    <h2>Get <strong>hot</strong>, <em>boiling</em>  tea. <br>
+                    Delivered straight to your doorstep.</h2>
+                </div>
+                <!-- <form action="#"> -->
+                <div class="input-box" id="first-name-box">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name">
+                    <!-- <div class="error-message">
+                        <iconify-icon inline icon="clarity:exclamation-triangle-solid" style="color: #db0000;" width="1.4em"></iconify-icon>
+                        <p>  Error Message: 404</p>
+                    </div> -->
+                </div>
+                <div class="input-box" id="last-name-box">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name">
+                </div>
+                <div class="input-box" id="email-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="input-box" id="phone-box"> 
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone">
+                </div>
+                <div class="input-box" id="password-box">
+                    <label for="password">Password</label>
+                    <input type="password" name="password"></div>
+                <div class="input-box" id="confirm-password-box">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password"></div>
+                <div class="input-box" id="submit-box">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
